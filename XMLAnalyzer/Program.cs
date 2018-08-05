@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace XMLAnalyzer
 {
@@ -19,18 +18,20 @@ namespace XMLAnalyzer
 
 			Dictionary<string, string> attributes;
 
-			if (File.Exists(args.First()))
+			if (File.Exists(args[0]))
 			{
 				attributes = xmlAnalyzer.GetTargetAttributes(args[0]);
 			}
 			else
 			{
-				Console.WriteLine($"Original file '{Path.GetFileName(args.First())}' not found");
+				Console.WriteLine($"Original file '{Path.GetFileName(args[0])}' not found");
 				return;
 			}
 
 			foreach (var htmlFilePath in args)
 			{
+				if (args[0] == htmlFilePath) continue;
+
 				if (!File.Exists(htmlFilePath))
 				{
 					Console.WriteLine($"File '{Path.GetFileName(htmlFilePath)}' not found");
@@ -40,6 +41,7 @@ namespace XMLAnalyzer
 				var xPatch = xmlAnalyzer.GetXPathToElement(htmlFilePath, attributes);
 				Console.WriteLine($"XPath to the target element: {xPatch}");
 			}
+
 
 			Console.WriteLine("Press any key to exit from the programm");
 			Console.ReadKey();
