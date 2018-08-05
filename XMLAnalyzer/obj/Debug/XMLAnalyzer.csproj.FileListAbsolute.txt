@@ -1,0 +1,13 @@
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\XMLAnalyzer.exe.config
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\XMLAnalyzer.exe
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\XMLAnalyzer.pdb
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\FSharp.Core.dll
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\HtmlAgilityPack.dll
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\ScrapySharp.Core.dll
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\ScrapySharpAsync.dll
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\FSharp.Core.xml
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\HtmlAgilityPack.pdb
+D:\projects\XMLAnalyzer\XMLAnalyzer\bin\Debug\HtmlAgilityPack.xml
+D:\projects\XMLAnalyzer\XMLAnalyzer\obj\Debug\XMLAnalyzer.csprojResolveAssemblyReference.cache
+D:\projects\XMLAnalyzer\XMLAnalyzer\obj\Debug\XMLAnalyzer.exe
+D:\projects\XMLAnalyzer\XMLAnalyzer\obj\Debug\XMLAnalyzer.pdb
